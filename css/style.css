@@ -310,5 +310,46 @@ line-height: 32px;
 .jamela{
     position: absolute;
     left:-150px;
-    top: 50px;
+    top: 50px ;
+}
+.main .descript{
+    margin-top: 100px;
+}
+.descript h6{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.descript h4{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.descript p{
+    color: #07021199;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.store{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.store .item{
+    margin: 10px 13px 12px 0 ;
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    transition: .4s ease-in-out;
+}
+.store .item:hover{
+    border: 2px solid #F00;
+
 }
