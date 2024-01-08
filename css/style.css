@@ -351,7 +351,6 @@ line-height: 32px;
 }
 .store .item:hover{
     border: 2px solid #F00;
-
 }
 .subscribe{
     margin-top: 80px;
@@ -414,7 +413,7 @@ margin-bottom: 45px;
 .footer{
     color: #FFF;
     margin-top: 100px;
-    width: 100%px;
+    width: 100%;
     background: #070211;
 }
 .foot-main{
