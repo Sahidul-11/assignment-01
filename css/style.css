@@ -158,5 +158,157 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
 
+}
+.detail span{
+    color: #F00
+
+}
+.join-btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #F00;
+    border-radius:5px;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.join-btn a{
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 700;
+}
+.join-btn:hover{
+    background-color: #070211;
+
+}
+.main2{
+    margin: auto;
+    width: 1320px;
+
+}
+.optional{
+    margin-top: 300px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+.optional .sub1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: 50px;
+}
+.optional .sub2{
+    width: 465px;
+    height: 465px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.optional .sub3{
+    right: 0;
+    position: absolute;
+}
+.optional h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.optional h3{
+    color: #070211;
+    font-family: Merriweather;
+   font-size: 48px;
+   font-weight: 900;
+   text-transform: capitalize;
+}
+.optional p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.optional h2{
+    color: #F00;
+    font-family: Inter;
+   font-size: 48px;
+   font-weight: 700;
+}
+.sub2-img{
+    width: 365px;
+    height: 365px;
+    margin: auto;
+}
+.main .cont1{
+    margin-top: 250px;
+    text-align: center;
+
+}
+
+.cont1 h5{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.cont1 h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.cont1 span{
+    color: #F00;
+}
+.cont1 p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+.cont2{
+    margin-top: 65px;
+    justify-content: space-between;
+    width: 1320px;
+    position: relative;
+}
+.cont2 .img1{
+    display: inline;
+    position: absolute;
+    width: 500px;
+}
+.cont2 .img2{
+    display: flex;
+    position: absolute;
+    width: 430px;
+    height: 435px;
+    right: 0;
+    display: inline;
+}
+.clear{
+    height: 440px;
+    clear: both;
+}
+.main .img3{
+    width: 100%;
+    top: 500px;
+}
+.jamela{
+    position: absolute;
+    left:-150px;
+    top: 50px;
 }
