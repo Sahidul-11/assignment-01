@@ -78,5 +78,85 @@ p{
     background: url("../images/New\ Year\ Photo.png");
     background-size: cover;
     background-position: center;
+    margin-bottom: 60px;
 }
 /* offer part end */
+.main{
+    width: 1320px;
+    margin: auto;
+}
+.wlc{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("../images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.wlc .container{
+    display: flex;
+    width: 100%;
+    height:100%;
+    padding-left: 125px;
+    padding-top: 125px;
+}  
+.container .content1{
+    width: 800px;
+
+}
+.container.content2{
+    width: 320px;
+    height: 465px;
+    margin-bottom: 50px;
+}
+
+.content1 h2{
+    font-family: Merriweather;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.content1 p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.content1 button{
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    margin-top: 50px;
+    margin-left: 34px;
+}
+.content1 a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s ease;
+}
+.content1 a:hover{
+    color: #F00;
+}
+.detail{
+    position: relative;
+    width: 1320px;
+    height: 480px;
+    background-color: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+}
+.detail p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
